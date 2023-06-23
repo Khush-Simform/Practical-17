@@ -9,7 +9,7 @@ namespace IdentityDemo.Data
         public AuthDbContext(DbContextOptions<AuthDbContext> options) : base(options)
         {
         }
-        public DbSet<Student> Students { get; set; }
+        public DbSet<Students> Students { get; set; }
         public DbSet<User> Users { get; set; }        
     }
 }

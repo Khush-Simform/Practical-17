@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Practical_17.Models
 {
-    public class Student
+    public class Students
     {
         [Key]
         public int Id { get; set; }
